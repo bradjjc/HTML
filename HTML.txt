@@ -1,0 +1,197 @@
+HTML
+
+웹 프론트 엔드의 기초
+
+HTML
+HyperText Markup Language
+CSS
+JAVASCRIPT
+JSON
+
+htML
+웹브라우저
+Html 을 읽을수있는 프로그램
+
+</> <> 태그
+
+CSS
+Cascading Style Sheet
+디자인에 최적화된 언어
+
+레이아웃 
+구성 설계 뼈대
+
+Jvacript
+동적으로 만들기위한 대화형태
+
+마크업언어는 개발언어가 아닙니다
+데이터 혹은 구조만 가질수있음
+
+자바스크립트는 개발언어
+
+Query
+문법을 조금더쉽게 만든 라이브러리 형태
+
+기본구조
+<HTML>
+  <HEAD>
+    <TITLE></TITLE>
+   </HEAD>
+   <BODY>
+
+
+   </BODY>
+</HTML>
+
+Vs code 로 작성 .html
+작설후 확인 파일 열기
+
+<!--..설명!..--> 주석
+
+<br/> 는 밑에 줄으로 줄바꾸기
+
+<hr/> 선긋는태그 가로줄
+
+<p>단락 1</p> 크게 띄워쓰기. 단락바꾸기(한줄 떨어짐)
+
+<b>굵게</b>. bold의 약자 글자를 굵게 <strong>strong emphasis</strong>
+<strong>은 옛날에만들어진 레거시 태그 요즘에는 b를쓴다.
+
+Img 태그
+옵션
+<img src = "a.jpg"> 이미지넣기 
+옵션 width, height. <img src = "a.jpg"width= "1000px"hight = "1000px">
+px pixel 화면에서 최소단위 
+% 퍼센트옵션 픽셀이 화면마다 다르게나올때 정해준다
+폴더는 폴더이름 / 이름.jpg
+<img src = "img/a.jpg">
+
+<a href="a/2.html">두번째로</a> 링크걸기
+새창 target = ""
+<a href="https://www.naver.com/" target="A">A-naver</a>
+
+https= 보안이된웹페이지
+http= 그냥웹페이지
+ftp= 파일
+
+Table = 표를 만들기 위한 테그 
+<table>테이블을 만드는 태그
+<th>테이블의 헤더부분을 만드는 태그
+<tr>테이블의 행을 만드는 태그
+<td> 테이블의 열을 만드는 태그
+
+border 속성은 테이블의 테두리를 설정해주는 속성입니다. ex (border="1") 숫자가 높을수록 테두리가 두꺼워집니다. 
+
+bordercolor는 테두리의 색상을 지정하는 속성입니다. ex(bordercolor="blue") default값은 검정색입니다. 
+
+width와 height는 테이블의 크기를 결정해주는 속성입니다. ex(width=50px width=100%)픽셀단위로 크기,비율로 줄 수 있습니다. 
+
+align은 테이블안에있는 값들을 정렬시키는 기능을 합니다. 
+
+bgcolor속성으로 원하는 태그의 배경색을 지정해줄 수 있습니다. 
+
+colspan, rowspan은 셀을 합병(행/열)시키는 기능을 합니다. 
+
+
+
+
+form 태그 문서양식 <input> 
+<input type="number" name="phone" maxlength="8" value="11111111">
+Name,= 폼을 식별하기위한 이를
+Id = 주민번호
+class= 직업
+
+action = 폼을 전송할 서버쪽 스크립트파일지정
+method = 폼을 서버에 전송할 http 메소드를 정함 git또는 post
+<form method="POST" action="result.html">
+
+target = action에서 지정한 스크립트 파일을 현재창이아닌 다른위치에 열도록 지정
+Accept-charset = 폼 전송에 사용할 문자 인코딩을 지정합니다.
+select= <option> 을 써서 선택할수있는 목록 스크롤을 만든다
+<select>
+                <option>010</option>
+                <option>02</option>
+                <option>031</option>
+            </select>
+
+<textarea> 태그 작성을 할수있는 테이블을 만듬 
+<textarea>아무거나</textarea>
+
+
+<li>태그
+<ol>은 숫자를매겨주는 목록.태그는 번호를 메겨 순서가 있는 (ordered list) 목록을 만듭니다
+<ul>는 숫자없이 점으로 만들어줌.태그는 순서없이 모양으로 (unordered list) 목록을 만듭니다.
+<li>태그를 열고 안에 <ol><ul>이든 선택.태그는 단순히 리스트 나열 뿐만 아니라 메뉴등을 만들때도 사용합니다.
+이중 리스트를 만들기 위해서는 <ul>이나 <ol>하위에 다시 <ul>이나 <ol> 태그를 쓰면 됩니다.
+
+단락
+<p> 크게 영역을 잡음
+ <div> p보다는 작게 잡음
+  <span> 단랃을 나누더라도 굳이 다음줄로 나누지않음
+
+미디어태그  확장자 .mp4  
+<video> == 영상이 컴터에있을때
+<video
+                            autoplay="autoplay"
+                            controls="controls"
+                            loop="loop"
+                            width="100%"
+                            muted="muted"
+                            preload="bbb">
+                            <source src="c.mp4" type="video/mp4">
+<audio
+<iframe>== 영상 퍼올때
+<iframe
+                            width="100%"
+                            height="100%"
+                            src="https://www.youtube.com/embed/PC2UEz2t08Q"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+예
+<video autoplay controls loop muted poster="aaa" preload="bbb">
+  <source src="xxx" type="yyy">
+  zzz
+</video>
+
+
+ <b>진하게<b>
+ <i>이탤릭</i> <em>emphasis</em>
+
+<center>...</center>. ...을 가운데 정렬
+
+
+<font>...</font>. ...의 폰트를 바꿈
+
+
+<ul><li>...<li>...</ul>
+...을 순서없는 목록으로 만듦(기본: 까만동그라미)
+
+
+<ol><li>...<li>...</ol>
+...을 순서있는 목록으로 만듦(기본: 숫자)
+
+
+<table></table>
+표만들기
+
+
+<tr></tr>
+행(<table>...</table>...에 넣는다)
+
+
+<td></td>
+열(<tr>...</tr> ...에 넣는다)
+
+
+<td colspan=숫자></td>
+그 셀부터 숫자만큼의 오른쪽 셀을 병합한다
+
+
+<td rowspan=숫자></td>
+그셀부터 숫자만큼의 아래쪽 셀을 병합한다
+
+
+
+
