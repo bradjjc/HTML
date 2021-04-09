@@ -192,6 +192,13 @@ select= <option> 을 써서 선택할수있는 목록 스크롤을 만든다
 <td rowspan=숫자></td>
 그셀부터 숫자만큼의 아래쪽 셀을 병합한다
 
+Html 문서형식
+
+<!DOCTYPE html>
+다른것들은 레거시
+<html lang="eng"> 언어 팩
+<html xmlns="http://www.w3===== 
+
 
 
 
