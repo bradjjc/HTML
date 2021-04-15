@@ -1,0 +1,51 @@
+
+div
+{
+    display: inline-block;
+}
+#bo1
+{
+    position: relative;
+    margin: 30%;
+    width: 300px;
+    height: 450px;
+    border: 1px black solid;
+}
+
+#title
+{
+    position: absolute;
+    background-color: royalblue;
+    width: 300px;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    line-height:50px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    text-indent: 10px;
+}
+#content
+{
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    width: 300px;
+    height: 400px;
+    background-color: #cccccc;
+    font-weight: bold;
+    text-indent: 10px;
+    line-height: 50px;
+}
+.text1
+{
+    position: absolute;
+    width: 260px;
+    height: 50px;
+    right: 20px;
+    background-color: white;
+    margin-top: 20px;
+
+}
+

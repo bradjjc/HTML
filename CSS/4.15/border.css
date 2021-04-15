@@ -1,0 +1,60 @@
+
+.test
+{
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    text-align:center;
+    line-height:100px;
+    background-color: gold;
+    border:3px #000000 double;
+    border-radius: 10px;
+
+}
+.test2
+{
+    border: 3px #ff0000 solid;
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}
+.test3
+{
+    border:3px #000000 dotted;
+}
+.test4
+{
+    border:3px #000000 dashed;
+}
+.test5
+{
+    border:3px #000000 solid;
+}
+.test6
+{
+    border:5px #000000 double;
+}
+.test7
+{
+    border:5px green groove;
+}
+.test8
+{
+    border:5px green ridge;
+}
+.test9
+{
+    border:5px green inset;
+}
+.test10
+{
+    border:5px green outset;
+}
+.test3 .test4 .test5 .test6 .test7 .test8 .test9 .test10 
+{
+    display:inline-block;
+    width:100%;
+    height:30px;
+    margin-top: 10px;
+}
