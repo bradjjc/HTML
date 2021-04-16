@@ -1,31 +1,31 @@
 *
 {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
 }
 div
 {
-    display: inline-block;
+    display:inline-block;
 }
 .backimage
 {
-    display: inline-block;
-    background-image: url("space2.jpg");
-    position: relative;
-    width: 100%;
-    height: 900px;
+    background-image:url("space2.jpg");
+    position:relative;
+    width:100%;
+    height:900px;
     background-size: cover;
-    background-position: center;
 }
 #top
 {
-    position: absolute;
+    position: fixed;
     background-color: rgb(5, 4, 8);
     opacity: 0.75;
     top: 0px;
     width: 100%;
     height: 50px;
+    line-height: 50px;
+    overflow: hidden;
 }
 #star
 {
@@ -34,7 +34,7 @@ div
     margin-left: 5px;
     font-size: 25px;
     text-indent: 10px;
-    margin-top: 10px
+
 }
 .test1
 {
@@ -46,14 +46,16 @@ div
     float: right;
     margin-left: 15px;
     margin-right: 20px;
-    margin-top: 8px;
+
 }
 .text
 {
+    position: relative;
     color: white;
-    margin: 130px 190px;
-    font-size: 45px;
-    margin-bottom: 30px;
+    margin: 130px 170px;
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-left: 220px;
     flood-opacity: unset;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -70,7 +72,8 @@ div
     width:160px;
     height:40px;
     border-radius:10px;
-    line-height:35px;
+    line-height:40px;
     font-size: 20px;
     margin-left: 600px;
+    margin-bottom: 100px;
 }
