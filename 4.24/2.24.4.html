@@ -3,6 +3,79 @@
         <title>insert</title>
     </head>
     <body>
-        
+        <form action="4.24.2.html" method="POST" target="_blank">
+            <table border="2px" align="center" width="100%" height="50%">
+                <tr>
+                    <td align="top" rowspan="6" style="font-size:large;">1정보입력</td>
+                    <td align="center"><input type="text" maxlength="5" name="name" value="이름"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="id" value="아이디"><a href="https://github.com/bradjjc" target="_blank">비밀번호 도움말</a></td>
+                </tr>
+                <tr>
+                    <td><input type="password" name="password" value="비밀번호"></td>
+                </tr>
+                <tr>
+                    <td><input type="password" name="password" value="비밀번호 재입력"></td>
+                </tr>
+                <tr>
+                    <td><select name="number" id="phone">
+                            <option>010</option>
+                            <option>011</option>
+                            <option>019</option>
+                        </select>
+                        <input type="number" name="phone" oninput="maxLengthCheck(4)">
+                        <input type="number" name="phone" oninput="maxLengthCheck(6)">
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="mail" name="email" value="이메일">@
+                        <select name="email" id="email">
+                            <option>naver.com</option>
+                            <option>google.com</option>
+                            <option>hanmail.net</option>
+                            <option>yahoo.com</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><select name="number" id="housenumber" value="전화번호">
+                            <option>02</option>
+                            <option>031</option>
+                            <option>010</option>
+                        </select>
+                        <input type="number" name="phone" oninput="maxLengthCheck(4)">
+                        <input type="number" name="phone" oninput="maxLengthCheck(6)">
+                    </td>
+                </tr>
+                <tr>
+                    <td><select name="number" id="phone">
+                            <option>010</option>
+                            <option>011</option>
+                            <option>019</option>
+                        </select>
+                        <input type="number" name="phone" oninput="maxLengthCheck(4)">
+                        <input type="number" name="phone" oninput="maxLengthCheck(6)">
+                        <input type="submit" value="휴대폰인증" style="width: 50pt;height: 50pt;background-color:white;color:black"><br/>
+                            인증받은 휴대폰번호를 재표로 사용<input type="checkbox" name="option" checked="checked">
+                            다른번호 들록<input type="checkbox" name="option">
+                            다음에 들록함<input type="checkbox" name="option">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="address" name="address" value="우편번호">
+                        <input type="submit" value="주소찾기" style="width: 50pt;height: 50pt;background-color:white;color:black">
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="주소찾기" style="width: 50pt;height: 50pt;background-color:red;color:white"></td>
+                    <td><input type="reset" value="취소" style="width: 50pt;height: 50pt;background-color:white;color:black"></td>
+                </tr>    
+
+            </table>
+        </form>
     </body>
 </html>
