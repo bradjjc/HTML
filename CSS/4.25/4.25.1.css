@@ -1,0 +1,61 @@
+.colortable
+{
+    text-align: center;
+    position: relative;
+    width: 900px;
+    height: 800px;
+    margin-left: 25%;
+    border: 2px black solid;
+}
+#blue
+{
+    border: 2px black solid;
+    position: absolute;
+    background-color: blue;
+    width: 600px;
+    height: 266px;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+#green
+{
+    border: 2px black solid;
+    background-color: green;
+    width: 300px;
+    height: 532px;
+    margin-right: 0px;
+    float: right;
+}
+#pink
+{
+    border: 2px black solid;
+    background-color: pink;
+    width: 600px;
+    height: 266px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    float: right;
+}
+#red
+{
+    position: absolute;
+    border: 2px black solid;
+    background-color: red;
+    width: 300px;
+    height: 532px;
+    margin-top: 266px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    float: left;
+}
+#image
+{
+    position: absolute;
+    background-image: url(../../HTML/img/b.jpg);
+    object-fit: cover;
+    margin-top: 266px;
+    margin-left: 300px;
+    height: 266px;
+    width: 300px;
+
+}
